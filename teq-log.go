@@ -1,9 +1,7 @@
-package go_module_logging
+package teq_log
 
-func GetCommonData() string {
-	return "Common Data"
-}
+import "log"
 
-func GetData() string {
-	return "Data"
+func PrintLog(error string) {
+	log.Println(error)
 }
